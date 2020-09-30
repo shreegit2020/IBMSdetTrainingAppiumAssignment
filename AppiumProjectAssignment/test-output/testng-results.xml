@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="71542" started-at="2020-09-30T13:58:33 IST" finished-at="2020-09-30T13:59:45 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="71542" started-at="2020-09-30T13:58:33 IST" finished-at="2020-09-30T13:59:45 IST">
+      <class name="DW.DW002">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:DW.DW002@37d31475]" name="beforeClass" is-config="true" duration-ms="29957" started-at="2020-09-30T13:58:34 IST" finished-at="2020-09-30T13:59:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="CheckLogInLogOut()[pri:0, instance:DW.DW002@37d31475]" name="CheckLogInLogOut" duration-ms="40953" started-at="2020-09-30T13:59:04 IST" finished-at="2020-09-30T13:59:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckLogInLogOut -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:DW.DW002@37d31475]" name="afterClass" is-config="true" duration-ms="522" started-at="2020-09-30T13:59:44 IST" finished-at="2020-09-30T13:59:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- DW.DW002 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
