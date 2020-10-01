@@ -1,0 +1,49 @@
+2020-09-30 18:29:03,549 WARN  [SoapUI] Missing folder [C:\Users\PinkiSingh\Desktop\RestServicesProject\my-app\ext] for external libraries
+2020-09-30 18:29:04,017 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\PinkiSingh\soapui-settings.xml]
+2020-09-30 18:29:06,289 INFO  [WsdlProject] Loaded project from [file:/C:/Users/PinkiSingh/Desktop/RestServicesProject/my-app/Rest-Customer-management-soapui-project.xml]
+2020-09-30 18:29:07,389 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [Rest Customer management]
+2020-09-30 18:29:07,394 INFO  [SoapUITestCaseRunner] Running Project [Rest Customer management], runType = SEQUENTIAL
+2020-09-30 18:29:07,419 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [FlowBased Testing]
+2020-09-30 18:29:07,463 INFO  [SoapUITestCaseRunner] running step [GetAccessToken]
+2020-09-30 18:29:09,568 INFO  [log] 5f0e7145743ae1d20318e4d45fa4afa9c9ad7300
+2020-09-30 18:29:09,584 INFO  [log] Bearer 5f0e7145743ae1d20318e4d45fa4afa9c9ad7300
+2020-09-30 18:29:09,651 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-09-30 18:29:09,652 INFO  [SoapUITestCaseRunner] running step [Login]
+2020-09-30 18:29:09,980 INFO  [SoapUITestCaseRunner] running step [GetAllCustomers]
+2020-09-30 18:29:10,604 INFO  [log] 1272
+2020-09-30 18:29:10,628 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-09-30 18:29:10,630 INFO  [SoapUITestCaseRunner] running step [GetCustomerById]
+2020-09-30 18:29:10,970 INFO  [SoapUITestCaseRunner] running step [ModifyCustomerDetails]
+2020-09-30 18:29:11,296 INFO  [SoapUITestCaseRunner] running step [DeleteCustomer]
+2020-09-30 18:29:11,621 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [FlowBased Testing], time taken: 2842ms, status: FINISHED
+2020-09-30 18:29:11,643 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [FlowBased Testing]
+2020-09-30 18:29:11,650 INFO  [SoapUITestCaseRunner] running step [GetAccessToken]
+2020-09-30 18:29:12,000 INFO  [log] 36115d49cf03339ffde1e7765031a1c6fc9ba1bb
+2020-09-30 18:29:12,001 INFO  [log] Bearer 36115d49cf03339ffde1e7765031a1c6fc9ba1bb
+2020-09-30 18:29:12,010 INFO  [log] [HTTP/1.1 200 OK]
+2020-09-30 18:29:12,013 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-09-30 18:29:12,014 INFO  [SoapUITestCaseRunner] running step [Login]
+2020-09-30 18:29:12,355 INFO  [log] [HTTP/1.1 200 OK]
+2020-09-30 18:29:12,363 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-09-30 18:29:12,372 INFO  [SoapUITestCaseRunner] running step [GetAdminDetails]
+2020-09-30 18:29:12,752 INFO  [log] [HTTP/1.1 200 OK]
+2020-09-30 18:29:12,754 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-09-30 18:29:12,756 INFO  [SoapUITestCaseRunner] running step [New Product]
+2020-09-30 18:29:13,100 INFO  [log] [HTTP/1.1 200 OK]
+2020-09-30 18:29:13,102 INFO  [log] 3075
+2020-09-30 18:29:13,106 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-09-30 18:29:13,108 INFO  [SoapUITestCaseRunner] running step [ProductById]
+2020-09-30 18:29:15,047 INFO  [log] [HTTP/1.1 200 OK]
+2020-09-30 18:29:15,048 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-09-30 18:29:15,049 INFO  [SoapUITestCaseRunner] running step [ModifyByProductId]
+2020-09-30 18:29:15,382 INFO  [log] [HTTP/1.1 200 OK]
+2020-09-30 18:29:15,383 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-09-30 18:29:15,385 INFO  [SoapUITestCaseRunner] running step [ModifiedProductById]
+2020-09-30 18:29:15,749 INFO  [log] [HTTP/1.1 200 OK]
+2020-09-30 18:29:15,759 INFO  [log] 14000.0000
+2020-09-30 18:29:15,761 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-09-30 18:29:15,762 INFO  [SoapUITestCaseRunner] running step [Logout]
+2020-09-30 18:29:16,084 INFO  [log] [HTTP/1.1 200 OK]
+2020-09-30 18:29:16,085 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-09-30 18:29:16,088 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [FlowBased Testing], time taken: 4096ms, status: FINISHED
+2020-09-30 18:29:16,094 INFO  [SoapUITestCaseRunner] Project [Rest Customer management] finished with status [FINISHED] in 8691ms
